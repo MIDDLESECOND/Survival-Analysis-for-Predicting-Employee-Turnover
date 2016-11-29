@@ -1,8 +1,8 @@
 *setting  the project library to Project2;
-libname Project2 '/home/nareshvemula0/Project2';
+libname Project2 '/home/pallavisingh0/Project2';
 *Importing the file;
 
-proc import datafile="/home/nareshvemula0/Project2/FermaLogis_Event_Type.csv" 
+proc import datafile="/home/pallavisingh/Project2/FermaLogis_Event_Type.csv" 
 		out=Project2.FermaLogis dbms=csv replace;
 	getnames=YES;
 run;
